@@ -33,7 +33,7 @@
 a. Sublime text. https://www.sublimetext.com/   
 b. Visual Studio Code https://code.visualstudio.com/  
 c. Brackets http://brackets.io/   
-d. Atom https://atom.io/
+d. Atom https://atom.io/  
 e. Playcode https://playcode.io/  
 f. Codeanywhere https://codeanywhere.com/  
 
