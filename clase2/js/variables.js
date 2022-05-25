@@ -1,3 +1,3 @@
 // se usa la palabra "let" para crear una variable
-let nombre = 'marcos';
-document.write( nombre );
+let nombre = prompt('ingrese su nombre');
+document.write( 'Bienvenido ' + nombre );
