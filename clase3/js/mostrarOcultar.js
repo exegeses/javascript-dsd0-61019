@@ -21,5 +21,4 @@ function ocultarMostrar()
         //caja.style.display = 'block';
         mostrar();
     }
-
 }
