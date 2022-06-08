@@ -20,3 +20,20 @@ nav{
     height: 200px;
     background-color: #c9c9c9;
 }
+
+/* práctica dado */
+#caraDado{
+    width: 200px;
+}
+nav button{
+    padding: 8px 32px;
+    border-radius: 12px;
+
+    background-color: #00bcd4;
+    border: 1px solid #00bcd4;
+    color: #000;
+    transition: 300ms;
+}
+nav button:hover{
+    background-color: #06cee7;
+}
