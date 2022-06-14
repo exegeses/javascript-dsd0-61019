@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e8e8e8;
+    color: #666;
+    font-family: Raleway;
+    font-weight: 300;
+    width: 600px;
+    margin: auto;
+}
+nav{
+    margin: 20px 0px;
+}
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: #c9c9c9;
+}
+
+/* práctica dado */
+#caraDado{
+    width: 200px;
+}
+nav button{
+    padding: 8px 32px;
+    border-radius: 12px;
+
+    background-color: #00bcd4;
+    border: 1px solid #00bcd4;
+    color: #000;
+    transition: 300ms;
+}
+nav button:hover{
+    background-color: #06cee7;
+}
