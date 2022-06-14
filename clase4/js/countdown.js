@@ -24,8 +24,11 @@ function countdown()
 
     //obtenemos los sobrantes
     horas = horas%24;
+    horas = dosDigitos(horas);
     minutos = minutos%60;
+    minutos = dosDigitos(minutos);
     segundos = segundos%60;
+    segundos = dosDigitos(segundos);
 
     //imprimimos segundos, minutos, horas y dias
     txtDias.innerText = dias;
@@ -34,5 +37,14 @@ function countdown()
     txtSegundos.innerText = segundos;
 }
 
+function dosDigitos( cifra )
+{
+    if( cifra < 10 ){
+        cifra = '0' + cifra;
+    }
+    return cifra;
+}
+
 //invocamos la función
 countdown();
+setInterval( countdown, 1000 );
