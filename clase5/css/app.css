@@ -37,3 +37,7 @@ nav button{
 nav button:hover{
     background-color: #06cee7;
 }
+/* cambiamos bullet de lista */
+#lista li{
+    list-style-image: url(../imgs/gem.svg);
+}
