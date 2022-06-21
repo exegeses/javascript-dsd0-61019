@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e8e8e8;
+    color: #666;
+    font-family: Raleway;
+    font-weight: 300;
+    width: 600px;
+    margin: auto;
+}
+nav{
+    margin: 20px 0px;
+}
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: #c9c9c9;
+}
+
+/* práctica dado */
+#caraDado{
+    width: 200px;
+}
+nav button{
+    padding: 8px 32px;
+    border-radius: 12px;
+
+    background-color: #00bcd4;
+    border: 1px solid #00bcd4;
+    color: #000;
+    transition: 300ms;
+}
+nav button:hover{
+    background-color: #06cee7;
+}
+/* cambiamos bullet de lista */
+#lista li{
+    list-style-image: url(../imgs/gem.svg);
+}
+#lista2 li{
+    list-style-image: url(../imgs/flag.svg);
+    padding-left: 8px;
+    transition: .3s;
+}
+#lista2 li:hover{
+    margin: 4px;
+    padding: 4px 0px 4px 6px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
