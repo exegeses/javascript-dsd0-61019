@@ -18,3 +18,21 @@ for( let n = 0; n < cantidad; n++ )
     links[n].style.color = '#f60';
     links[n].style.padding = '8px';
 }
+
+/* ubicar todos los h2 */
+//let h2s = document.getElementsByTagName('h2');
+let h2s = document.querySelectorAll('h2');
+    console.log(h2s);
+    h2s[3].style.color = '#f60';
+
+/*
+*  ubicar el input con el name = "nombre"
+*  obtener el texto que hay escrito en el input
+*  y luego imprimirlo en el span
+* */
+let nombre = document.querySelector('input[name="nombre"]');
+let txt = document.querySelector('#txt');
+function mostrarTexto()
+{
+    txt.innerText = nombre.value;
+}
